@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "John",
+      "nickname": "John",
+      "password": "pass",
+      "email": "example@example.com",
+      "user_level": 1,
+      "picture_url": "https://gravatar.com/avatar/1e51e6a792a7e158d601bd4369dad071?s=400&d=robohash&r=x",
+      "background_pic_url": "",
+      "createdAt": "2021-09-15T03:55:55.857Z",
+      "updatedAt": "2021-09-15T03:55:55.857Z"
+    },
+    {
+      "id": 2,
+      "username": "yo",
+      "nickname": "yo",
+      "password": "pass",
+      "email": "yo@example.com",
+      "user_level": 1,
+      "picture_url": "https://robohash.org/5fa8042761845cdaa20950f704f56103?set=set4&bgset=&size=400x400",
+      "background_pic_url": "",
+      "createdAt": "2021-09-15T03:55:55.857Z",
+      "updatedAt": "2021-09-15T03:55:55.857Z"
+    },
+    {
+      "id": "071432b22d506b",
+      "username": "aa",
+      "nickname": "aa",
+      "password": "cc",
+      "email": "bb",
+      "user_level": 1,
+      "picture_url": "https://img.foodmap.com/default_avatar.png",
+      "background_pic_url": "https://img.foodmap.com/default_cover.png",
+      "createdAt": "2021-09-15T14:26:28.848Z",
+      "updatedAt": "2021-09-15T14:26:28.848Z"
+    }
+  ],
+  "posts": [
+    {
+      "user_id": "1",
+      "restaurant_id": "ChIJ0dO5-2CpQjQRSat1DIAZNyk",
+      "title": "myfirstPost",
+      "content": "yoyo",
+      "views": 5,
+      "is_deleted": 0,
+      "createdAt": "2021-09-15T03:55:55.857Z",
+      "updatedAt": "2021-09-15T03:55:55.857Z"
+    },
+    {
+      "user_id": "1",
+      "restaurant_id": "",
+      "title": "mysecondPost",
+      "content": "2*好yo",
+      "views": 13,
+      "is_deleted": 0,
+      "createdAt": "2021-09-15T03:55:55.857Z",
+      "updatedAt": "2021-09-15T03:55:55.857Z"
+    }
+  ],
+  "profile": {
+    "name": "foodmap JSON Server API"
+  }
+}
