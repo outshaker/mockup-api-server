@@ -15,6 +15,6 @@ git clone https://github.com/outshaker/mockup-api-server.git # 複製 repo 到�
 cd mockup-api-server/ # 切換到該資料夾
 git checkout dev-login # 切換到 dev-login 分支
 npm install # 安裝相依套件
-node basic-session.js # 啟動測試伺服器
+node foodmap-server.js # 啟動測試伺服器
 ```
 
